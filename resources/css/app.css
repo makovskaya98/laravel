@@ -1,0 +1,49 @@
+.page {
+    background: linear-gradient(to bottom, #1bd9e9, #0a27a5);
+    padding: 30px;
+    min-height: 100vh;
+}
+
+form,
+.success-block {
+    min-height: 90vh;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+}
+
+#about-me {
+    max-height: 140px;
+}
+
+.add-phone {
+    display: flex;
+    justify-content: end;
+}
+
+.phone-btn a {
+    border: 0;
+    background: #f8f9fa;
+    width: 35px;
+}
+
+.phone-btn a:hover {
+    cursor: pointer;
+}
+
+.remove-file:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    table.table {
+        display: block;
+        overflow-x: auto !important;
+    }
+}
